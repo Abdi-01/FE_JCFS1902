@@ -1,0 +1,45 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+/* variable css */
+:root{
+    --warna-header:rgb(23, 240, 70);
+}
+/* Tag Selector */
+div{
+    background-color: cyan;
+}
+
+/* ID Selector */
+#navbar{
+    background-color: var(--warna-header);
+}
+
+/* Class Selector */
+.text-bold{
+    font-weight: bold;
+    color: white;
+}
+
+/* Child Selector */
+div > p{
+    text-align: justify;
+}
+
+div > p > a{
+    font-weight: bolder;
+}
+
+/* pseudo-class selector */
+#navbar:hover{
+    background-color: aqua;
+}
+.text-bold:hover{
+    color: black;
+}
+
+/* mengubah font family */
+p{
+    font-family: 'Praise', cursive;
+    font-size: x-large;
+}

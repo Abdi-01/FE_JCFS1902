@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;600;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    padding: 0% 10%;
+    background-color: #0B1124;
+    font-size: large;
+    color: white;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+#nav-left,#nav-right{
+    width: 50%;
+}
+
+#nav-left>ul,#nav-right>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-left>ul{
+    padding: 1vh;
+    align-items: center;
+}
+
+#nav-right>ul{
+    width: 50%;
+    margin-left: auto;
+    padding: 2vh;
+}
+
+.btn-outline{
+    border: 2px solid #EC074D;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn-outline:hover{
+    background-color: #EC074D;
+}
+
+.btn-solid{
+    color: white;
+    border: 2px solid #FE0146;
+    padding: 10px 15px;
+    border-radius: 45px;
+    background-color: #FE0146;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out;
+}
+
+.btn-solid:hover{
+    background-color: transparent;
+}
+
+#section-1{
+    background: rgb(17,35,76);
+    background: linear-gradient(0deg, rgba(17,35,76,1) 0%, rgba(11,17,37,1) 100%); 
+    color: white;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    height: 94vh;
+}
+
+#section-space{
+    background-color: white;
+    height:50vh;
+}
+
+#section-2{
+    background-image: url("https://www.jwplayer.com/hubfs/background-light.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+iframe{
+    display: block;
+    margin: 5vh auto;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#card-testi{
+    border-radius: 15px;
+    width: 310px;
+    padding: 2%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    font-family: 'Overpass', sans-serif;
+}
+
+#card-album{
+    width: 25vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 2vh;
+}
+
+#card-content{
+    text-align: justify;
+    padding: 5%;
+}
+
+#card-btn{
+    margin-top: 5%;
+}
+#card-btn>a{
+    border: 1px solid gray;
+    padding: 2%;
+}

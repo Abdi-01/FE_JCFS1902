@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    background-color: #dfe6e9;
+    padding: 2vh 1vh;
+}
+
+#nav-left{
+    width: 75vw;
+    background-color: #b2bec3;
+}
+
+#nav-right{
+    width: 25vw;
+    background-color: #636e72;
+}
+
+#nav-left > ul,#nav-right>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+
+#banner{
+    height: 40vh;
+    background-color:#a29bfe ;
+    padding: 100px;
+}
+
+#content{
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+#content>div{
+    padding: 2vh 1vw;
+    height: 25vh;
+}
+
+#floating-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #b2bec3;
+    position: fixed;
+    /* left: 20px; */
+    bottom: 30px;
+    right: 30px;
+    border-radius: 45px;
+}
+
+
