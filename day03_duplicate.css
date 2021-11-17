@@ -145,3 +145,12 @@ iframe{
     text-decoration:none;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+#footer{
+    background-image: url("https://www.jwplayer.com/hubfs/background-dark.jpg");
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
